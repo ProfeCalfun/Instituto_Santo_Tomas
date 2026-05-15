@@ -24,7 +24,7 @@ namespace Instituto.Controllers
         
         };*/
 
-
+        
         public ActionResult Index()
         {
             List<Alumno> lista = new List<Alumno>();
@@ -54,5 +54,7 @@ namespace Instituto.Controllers
 
             return View(lista);
         }
+
+        
     }
 }

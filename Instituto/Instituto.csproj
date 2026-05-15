@@ -365,6 +365,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AlumnoController.cs" />
+    <Compile Include="Controllers\CrearController.cs" />
     <Compile Include="Data\conexion.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -380,6 +381,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Alumno\Index.cshtml" />
     <Content Include="Views\Alumno\vistaAlumno.cshtml" />
+    <Content Include="Views\Crear\Crear.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
